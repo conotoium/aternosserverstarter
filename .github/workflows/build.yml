@@ -27,4 +27,5 @@ jobs:
       - name: Run Aternos interaction script
         run: node aternos-interact.js
         env:
-          API_KEY: ${{ secrets.ATERNOS_API_KEY }} # Store your Aternos API key in GitHub Secrets
+          ATERNOS_USERNAME: ${{ secrets.ATERNOS_USERNAME }}
+          ATERNOS_PASSWORD: ${{ secrets.ATERNOS_PASSWORD }}
