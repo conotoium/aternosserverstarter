@@ -1,7 +1,7 @@
 {
   "name": "aternos-server-starter",
   "version": "1.0.0",
-  "description": "A project to simulate a Minecraft server and interact with Aternos",
+  "description": "A server starter for aternos",
   "main": "aternos-interact.js",
   "scripts": {
     "start": "node aternos-interact.js",
