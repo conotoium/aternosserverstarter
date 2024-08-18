@@ -17,8 +17,8 @@ const chromium = require('chrome-aws-lambda');
     await page.goto('https://example.com');
 
     // Additional interactions
-    // await page.type('#username', process.env.ATERNOS_USERNAME);
-    // await page.type('#password', process.env.ATERNOS_PASSWORD);
+    // await page.type('gitstart', process.env.ATERNOS_USERNAME);
+    // await page.type('gstart1', process.env.ATERNOS_PASSWORD);
     // await page.click('#login-button');
 
     console.log('Interaction with Aternos completed');
