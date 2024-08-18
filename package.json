@@ -9,8 +9,8 @@
   },
   "dependencies": {
     "puppeteer-core": "^21.0.0",
-    "chrome-aws-lambda": "^11.0.0"
+    "chrome-aws-lambda": "^10.0.0"
   },
-  "author": "Your Name",
+  "author": "Contonium365",
   "license": "MIT"
 }
