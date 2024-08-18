@@ -1,0 +1,15 @@
+{
+  "name": "aternos-server-starter",
+  "version": "1.0.0",
+  "description": "A project to simulate a Minecraft server and interact with Aternos",
+  "main": "aternos-interact.js",
+  "scripts": {
+    "start": "node aternos-interact.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "puppeteer": "^21.0.0" // Replace with the latest version or the one you need
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
